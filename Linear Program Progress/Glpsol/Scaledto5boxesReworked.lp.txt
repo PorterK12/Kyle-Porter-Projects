@@ -1,0 +1,72 @@
+\* Books to boxes Test *\
+\* Run using: glpsol --lp booksToBoxesTest.lp -o booksToBoxes.txt *\
+\* Answer report will be in booksToBoxes.txt *\
+
+
+Minimize
+BoxesUsed: UsedBox1 + UsedBox2 + UsedBox3 + UsedBox4 + UsedBox5
+
+subject to
+WeightB1: .5 SmallB1 + 1 SmallMidB1 + 1.5 MediumB1 + 2 MidLargeB1 + 2.5 LargeB1 <= 400
+WeightB2: .5 SmallB2 + 1 SmallMidB2 + 1.5 MediumB2 + 2 MidLargeB2 + 2.5 LargeB2 <= 400
+WeightB3: .5 SmallB3 + 1 SmallMidB3 + 1.5 MediumB3 + 2 MidLargeB3 + 2.5 LargeB3 <= 400
+WeightB4: .5 SmallB4 + 1 SmallMidB4 + 1.5 MediumB4 + 2 MidLargeB4 + 2.5 LargeB4 <= 400
+WeightB5: .5 SmallB5 + 1 SmallMidB5 + 1.5 MediumB5 + 2 MidLargeB5 + 2.5 LargeB5 <= 400
+
+VolumeB1: 100 SmallB1 + 200 SmallMidB1 + 300 MediumB1 + 400 MidLargeB1 + 500 LargeB1 <= 18750
+VolumeB2: 100 SmallB2 + 200 SmallMidB2 + 300 MediumB2 + 400 MidLargeB2 + 500 LargeB2 <= 18750
+VolumeB3: 100 SmallB3 + 200 SmallMidB3 + 300 MediumB3 + 400 MidLargeB3 + 500 LargeB3 <= 18750
+VolumeB4: 100 SmallB4 + 200 SmallMidB4 + 300 MediumB4 + 400 MidLargeB4 + 500 LargeB4 <= 18750
+VolumeB5: 100 SmallB5 + 200 SmallMidB5 + 300 MediumB5 + 400 MidLargeB5 + 500 LargeB5 <= 18750
+
+SmallBooks: 1 SmallB1 + 1 SmallB2 + 1 SmallB3 + 1 SmallB4 + 1 SmallB5 = 129
+SmallMidBooks: 1 SmallMidB1 + 1 SmallMidB2 + 1 SmallMidB3 + 1 SmallMidB4 + 1 SmallMidB5 = 200
+MediumBooks: 1 MediumB1 + 1 MediumB2 + 1 MediumB3 + 1 MediumB4 + 1 MediumB5 = 14
+MidLargeBooks: 1 MidLargeB1 + 1 MidLargeB2 + 1 MidLargeB3 + 1 MidLargeB4 + 1 MidLargeB5 = 0
+LargeBooks: LargeB1 + LargeB2 + LargeB3 + LargeB4 + LargeB5 = 0
+
+Box1Used:  1 SmallB1 + 1 SmallMidB1 + 1 MediumB1 + 1 MidLargeB1 + 1 LargeB1 - 10000 UsedBox1 <=0
+Box2Used:  1 SmallB2 + 1 SmallMidB2 + 1 MediumB2 + 1 MidLargeB2 + 1 LargeB2 - 10000 UsedBox2 <=0
+Box3Used:  1 SmallB3 + 1 SmallMidB3 + 1 MediumB3 + 1 MidLargeB3 + 1 LargeB3 - 10000 UsedBox3 <=0
+Box4Used:  1 SmallB4 + 1 SmallMidB4 + 1 MediumB4 + 1 MidLargeB4 + 1 LargeB4 - 10000 UsedBox4 <=0
+Box5Used:  1 SmallB5 + 1 SmallMidB5 + 1 MediumB5 + 1 MidLargeB5 + 1 LargeB5 - 10000 UsedBox5 <=0
+
+bounds
+SmallB1 >=0
+SmallMidB1 >=0
+MediumB1 >=0
+MidLargeB1 >=0
+LargeB1 >=0
+
+SmallB2 >=0
+SmallMidB2 >=0
+MediumB2 >=0
+MidLargeB2 >=0
+LargeB2 >=0
+
+SmallB3 >=0
+SmallMidB3 >=0
+MediumB3 >=0
+MidLargeB3 >=0
+LargeB3 >=0
+
+SmallB4 >=0
+SmallMidB4 >=0
+MediumB4 >=0
+MidLargeB4 >=0
+LargeB4 >=0
+
+SmallB5 >=0
+SmallMidB5 >=0
+MediumB5 >=0
+MidLargeB5 >=0
+LargeB5 >=0
+
+Binary
+UsedBox1
+UsedBox2
+UsedBox3
+UsedBox4
+UsedBox5
+
+end

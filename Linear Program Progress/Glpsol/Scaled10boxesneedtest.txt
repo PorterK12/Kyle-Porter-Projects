@@ -1,0 +1,121 @@
+Problem:    
+Rows:       35
+Columns:    60 (10 integer, 10 binary)
+Non-zeros:  210
+Status:     INTEGER OPTIMAL
+Objective:  BoxesUsed = 6 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 WeightB1                93.75                         400 
+     2 WeightB2                    0                         400 
+     3 WeightB3                    0                         400 
+     4 WeightB4                    0                         400 
+     5 WeightB5                    0                         400 
+     6 WeightB6                93.75                         400 
+     7 WeightB7                93.75                         400 
+     8 WeightB8                93.75                         400 
+     9 WeightB9                 0.75                         400 
+    10 WeightB10               93.75                         400 
+    11 VolumeB1                18750                       18750 
+    12 VolumeB2                    0                       18750 
+    13 VolumeB3                    0                       18750 
+    14 VolumeB4                    0                       18750 
+    15 VolumeB5                    0                       18750 
+    16 VolumeB6                18750                       18750 
+    17 VolumeB7                18750                       18750 
+    18 VolumeB8                18750                       18750 
+    19 VolumeB9                  150                       18750 
+    20 VolumeB10               18750                       18750 
+    21 SmallBooks                129           129             = 
+    22 SmallMidBooks
+                                 249           249             = 
+    23 MediumBooks                14            14             = 
+    24 MidLargeBooks
+                                  30            30             = 
+    25 LargeBooks                 30            30             = 
+    26 Box1Used              -9957.5                           0 
+    27 Box2Used                    0                           0 
+    28 Box3Used                    0                           0 
+    29 Box4Used                    0                           0 
+    30 Box5Used                    0                           0 
+    31 Box6Used              -9842.5                           0 
+    32 Box7Used             -9935.88                           0 
+    33 Box8Used             -9906.25                           0 
+    34 Box9Used             -9999.62                           0 
+    35 Box10Used            -9906.25                           0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 UsedBox1     *              1             0             1 
+     2 UsedBox2     *              0             0             1 
+     3 UsedBox3     *              0             0             1 
+     4 UsedBox4     *              0             0             1 
+     5 UsedBox5     *              0             0             1 
+     6 UsedBox6     *              1             0             1 
+     7 UsedBox7     *              1             0             1 
+     8 UsedBox8     *              1             0             1 
+     9 UsedBox9     *              1             0             1 
+    10 UsedBox10    *              1             0             1 
+    11 SmallB1                     0             0               
+    12 SmallMidB1                  0             0               
+    13 MediumB1                 12.5             0               
+    14 MidLargeB1                  0             0               
+    15 LargeB1                    30             0               
+    16 SmallB2                     0             0               
+    17 SmallMidB2                  0             0               
+    18 MediumB2                    0             0               
+    19 MidLargeB2                  0             0               
+    20 LargeB2                     0             0               
+    21 SmallB3                     0             0               
+    22 SmallMidB3                  0             0               
+    23 MediumB3                    0             0               
+    24 MidLargeB3                  0             0               
+    25 LargeB3                     0             0               
+    26 SmallB4                     0             0               
+    27 SmallMidB4                  0             0               
+    28 MediumB4                    0             0               
+    29 MidLargeB4                  0             0               
+    30 LargeB4                     0             0               
+    31 SmallB5                     0             0               
+    32 SmallMidB5                  0             0               
+    33 MediumB5                    0             0               
+    34 MidLargeB5                  0             0               
+    35 LargeB5                     0             0               
+    36 SmallB6                   129             0               
+    37 SmallMidB6                 27             0               
+    38 MediumB6                  1.5             0               
+    39 MidLargeB6                  0             0               
+    40 LargeB6                     0             0               
+    41 SmallB7                     0             0               
+    42 SmallMidB7               34.5             0               
+    43 MediumB7                    0             0               
+    44 MidLargeB7             29.625             0               
+    45 LargeB7                     0             0               
+    46 SmallB8                     0             0               
+    47 SmallMidB8              93.75             0               
+    48 MediumB8                    0             0               
+    49 MidLargeB8                  0             0               
+    50 LargeB8                     0             0               
+    51 SmallB9                     0             0               
+    52 SmallMidB9                  0             0               
+    53 MediumB9                    0             0               
+    54 MidLargeB9              0.375             0               
+    55 LargeB9                     0             0               
+    56 SmallB10                    0             0               
+    57 SmallMidB10             93.75             0               
+    58 MediumB10                   0             0               
+    59 MidLargeB10                 0             0               
+    60 LargeB10                    0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 2.55e-11 on row 11
+        max.rel.err = 1.49e-15 on row 25
+        High quality
+
+End of output

@@ -1,0 +1,45 @@
+Problem:    
+Rows:       9
+Columns:    10 (10 integer, 0 binary)
+Non-zeros:  30
+Status:     INTEGER OPTIMAL
+Objective:  profit = 10 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 WeightB1                    6                         400 
+     2 WeightB2                    9                         400 
+     3 VolumeB1                 1200                        1875 
+     4 VolumeB2                 1800                        1875 
+     5 SmallBooks                  2             2             = 
+     6 SmallMidBooks
+                                   2             2             = 
+     7 MediumBooks                 2             2             = 
+     8 MidLargeBooks
+                                   2             2             = 
+     9 LargeBooks                  2             2             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 SmallB1      *              0             0               
+     2 SmallMidB1   *              0             0               
+     3 MediumB1     *              1             0               
+     4 MidLargeB1   *              1             0               
+     5 LargeB1      *              1             0               
+     6 SmallB2      *              2             0               
+     7 SmallMidB2   *              2             0               
+     8 MediumB2     *              1             0               
+     9 MidLargeB2   *              1             0               
+    10 LargeB2      *              1             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
