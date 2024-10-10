@@ -1,0 +1,426 @@
+\* Books to boxes Test *\
+\* Run using: glpsol --lp booksToBoxesTest.lp -o booksToBoxes.txt *\
+\* Answer report will be in booksToBoxes.txt *\
+
+
+Minimize
+BoxesUsed: UsedBox1 + UsedBox2 + UsedBox3 + UsedBox4 + UsedBox5 + UsedBox6 + UsedBox7 + UsedBox8 + UsedBox9 + UsedBox10 + UsedBox11 + UsedBox12 + UsedBox13 + UsedBox14 + UsedBox15 + UsedBox16 + UsedBox17 + UsedBox18 + UsedBox19 + UsedBox20 + UsedBox21 + UsedBox22 + UsedBox23 + UsedBox24 + UsedBox25 + UsedBox26 + UsedBox27 + UsedBox28 + UsedBox29 + UsedBox30 + UsedBox31 + UsedBox32 + UsedBox33 + UsedBox34 + UsedBox35 + UsedBox36 + UsedBox37 + UsedBox38 + UsedBox39 + UsedBox40
+
+subject to
+WeightB1: .5 SmallB1 + 1 SmallMidB1 + 1.5 MediumB1 + 2 MidLargeB1 + 2.5 LargeB1 <= 400
+WeightB2: .5 SmallB2 + 1 SmallMidB2 + 1.5 MediumB2 + 2 MidLargeB2 + 2.5 LargeB2 <= 400
+WeightB3: .5 SmallB3 + 1 SmallMidB3 + 1.5 MediumB3 + 2 MidLargeB3 + 2.5 LargeB3 <= 400
+WeightB4: .5 SmallB4 + 1 SmallMidB4 + 1.5 MediumB4 + 2 MidLargeB4 + 2.5 LargeB4 <= 400
+WeightB5: .5 SmallB5 + 1 SmallMidB5 + 1.5 MediumB5 + 2 MidLargeB5 + 2.5 LargeB5 <= 400
+WeightB6: .5 SmallB6 + 1 SmallMidB6 + 1.5 MediumB6 + 2 MidLargeB6 + 2.5 LargeB6 <= 400
+WeightB7: .5 SmallB7 + 1 SmallMidB7 + 1.5 MediumB7 + 2 MidLargeB7 + 2.5 LargeB7 <= 400
+WeightB8: .5 SmallB8 + 1 SmallMidB8 + 1.5 MediumB8 + 2 MidLargeB8 + 2.5 LargeB8 <= 400
+WeightB9: .5 SmallB9 + 1 SmallMidB9 + 1.5 MediumB9 + 2 MidLargeB9 + 2.5 LargeB9 <= 400
+WeightB10: .5 SmallB10 + 1 SmallMidB10 + 1.5 MediumB10 + 2 MidLargeB10 + 2.5 LargeB10 <= 400
+WeightB11: .5 SmallB11 + 1 SmallMidB11 + 1.5 MediumB11 + 2 MidLargeB11 + 2.5 LargeB11 <= 400
+WeightB12: .5 SmallB12 + 1 SmallMidB12 + 1.5 MediumB12 + 2 MidLargeB12 + 2.5 LargeB12 <= 400
+WeightB13: .5 SmallB13 + 1 SmallMidB13 + 1.5 MediumB13 + 2 MidLargeB13 + 2.5 LargeB13 <= 400
+WeightB14: .5 SmallB14 + 1 SmallMidB14 + 1.5 MediumB14 + 2 MidLargeB14 + 2.5 LargeB14 <= 400
+WeightB15: .5 SmallB15 + 1 SmallMidB15 + 1.5 MediumB15 + 2 MidLargeB15 + 2.5 LargeB15 <= 400
+WeightB16: .5 SmallB16 + 1 SmallMidB16 + 1.5 MediumB16 + 2 MidLargeB16 + 2.5 LargeB16 <= 400
+WeightB17: .5 SmallB17 + 1 SmallMidB17 + 1.5 MediumB17 + 2 MidLargeB17 + 2.5 LargeB17 <= 400
+WeightB18: .5 SmallB18 + 1 SmallMidB18 + 1.5 MediumB18 + 2 MidLargeB18 + 2.5 LargeB18 <= 400
+WeightB19: .5 SmallB19 + 1 SmallMidB19 + 1.5 MediumB19 + 2 MidLargeB19 + 2.5 LargeB19 <= 400
+WeightB20: .5 SmallB20 + 1 SmallMidB20 + 1.5 MediumB20 + 2 MidLargeB20 + 2.5 LargeB20 <= 400
+WeightB21: .5 SmallB21 + 1 SmallMidB21 + 1.5 MediumB21 + 2 MidLargeB21 + 2.5 LargeB21 <= 400
+WeightB22: .5 SmallB22 + 1 SmallMidB22 + 1.5 MediumB22 + 2 MidLargeB22 + 2.5 LargeB22 <= 400
+WeightB23: .5 SmallB23 + 1 SmallMidB23 + 1.5 MediumB23 + 2 MidLargeB23 + 2.5 LargeB23 <= 400
+WeightB24: .5 SmallB24 + 1 SmallMidB24 + 1.5 MediumB24 + 2 MidLargeB24 + 2.5 LargeB24 <= 400
+WeightB25: .5 SmallB25 + 1 SmallMidB25 + 1.5 MediumB25 + 2 MidLargeB25 + 2.5 LargeB25 <= 400
+WeightB26: .5 SmallB26 + 1 SmallMidB26 + 1.5 MediumB26 + 2 MidLargeB26 + 2.5 LargeB26 <= 400
+WeightB27: .5 SmallB27 + 1 SmallMidB27 + 1.5 MediumB27 + 2 MidLargeB27 + 2.5 LargeB27 <= 400
+WeightB28: .5 SmallB28 + 1 SmallMidB28 + 1.5 MediumB28 + 2 MidLargeB28 + 2.5 LargeB28 <= 400
+WeightB29: .5 SmallB29 + 1 SmallMidB29 + 1.5 MediumB29 + 2 MidLargeB29 + 2.5 LargeB29 <= 400
+WeightB30: .5 SmallB30 + 1 SmallMidB30 + 1.5 MediumB30 + 2 MidLargeB30 + 2.5 LargeB30 <= 400
+WeightB31: .5 SmallB31 + 1 SmallMidB31 + 1.5 MediumB31 + 2 MidLargeB31 + 2.5 LargeB31 <= 400
+WeightB32: .5 SmallB32 + 1 SmallMidB32 + 1.5 MediumB32 + 2 MidLargeB32 + 2.5 LargeB32 <= 400
+WeightB33: .5 SmallB33 + 1 SmallMidB33 + 1.5 MediumB33 + 2 MidLargeB33 + 2.5 LargeB33 <= 400
+WeightB34: .5 SmallB34 + 1 SmallMidB34 + 1.5 MediumB34 + 2 MidLargeB34 + 2.5 LargeB34 <= 400
+WeightB35: .5 SmallB35 + 1 SmallMidB35 + 1.5 MediumB35 + 2 MidLargeB35 + 2.5 LargeB35 <= 400
+WeightB36: .5 SmallB36 + 1 SmallMidB36 + 1.5 MediumB36 + 2 MidLargeB36 + 2.5 LargeB36 <= 400
+WeightB37: .5 SmallB37 + 1 SmallMidB37 + 1.5 MediumB37 + 2 MidLargeB37 + 2.5 LargeB37 <= 400
+WeightB38: .5 SmallB38 + 1 SmallMidB38 + 1.5 MediumB38 + 2 MidLargeB38 + 2.5 LargeB38 <= 400
+WeightB39: .5 SmallB39 + 1 SmallMidB39 + 1.5 MediumB39 + 2 MidLargeB39 + 2.5 LargeB39 <= 400
+WeightB40: .5 SmallB40 + 1 SmallMidB40 + 1.5 MediumB40 + 2 MidLargeB40 + 2.5 LargeB40 <= 400
+
+VolumeB1: 100 SmallB1 + 200 SmallMidB1 + 300 MediumB1 + 400 MidLargeB1 + 500 LargeB1 <= 18750
+VolumeB2: 100 SmallB2 + 200 SmallMidB2 + 300 MediumB2 + 400 MidLargeB2 + 500 LargeB2 <= 18750
+VolumeB3: 100 SmallB3 + 200 SmallMidB3 + 300 MediumB3 + 400 MidLargeB3 + 500 LargeB3 <= 18750
+VolumeB4: 100 SmallB4 + 200 SmallMidB4 + 300 MediumB4 + 400 MidLargeB4 + 500 LargeB4 <= 18750
+VolumeB5: 100 SmallB5 + 200 SmallMidB5 + 300 MediumB5 + 400 MidLargeB5 + 500 LargeB5 <= 18750
+VolumeB6: 100 SmallB6 + 200 SmallMidB6 + 300 MediumB6 + 400 MidLargeB6 + 500 LargeB6 <= 18750
+VolumeB7: 100 SmallB7 + 200 SmallMidB7 + 300 MediumB7 + 400 MidLargeB7 + 500 LargeB7 <= 18750
+VolumeB8: 100 SmallB8 + 200 SmallMidB8 + 300 MediumB8 + 400 MidLargeB8 + 500 LargeB8 <= 18750
+VolumeB9: 100 SmallB9 + 200 SmallMidB9 + 300 MediumB9 + 400 MidLargeB9 + 500 LargeB9 <= 18750
+VolumeB10: 100 SmallB10 + 200 SmallMidB10 + 300 MediumB10 + 400 MidLargeB10 + 500 LargeB10 <= 18750
+VolumeB11: 100 SmallB11 + 200 SmallMidB11 + 300 MediumB11 + 400 MidLargeB11 + 500 LargeB11 <= 18750
+VolumeB12: 100 SmallB12 + 200 SmallMidB12 + 300 MediumB12 + 400 MidLargeB12 + 500 LargeB12 <= 18750
+VolumeB13: 100 SmallB13 + 200 SmallMidB13 + 300 MediumB13 + 400 MidLargeB13 + 500 LargeB13 <= 18750
+VolumeB14: 100 SmallB14 + 200 SmallMidB14 + 300 MediumB14 + 400 MidLargeB14 + 500 LargeB14 <= 18750
+VolumeB15: 100 SmallB15 + 200 SmallMidB15 + 300 MediumB15 + 400 MidLargeB15 + 500 LargeB15 <= 18750
+VolumeB16: 100 SmallB16 + 200 SmallMidB16 + 300 MediumB16 + 400 MidLargeB16 + 500 LargeB16 <= 18750
+VolumeB17: 100 SmallB17 + 200 SmallMidB17 + 300 MediumB17 + 400 MidLargeB17 + 500 LargeB17 <= 18750
+VolumeB18: 100 SmallB18 + 200 SmallMidB18 + 300 MediumB18 + 400 MidLargeB18 + 500 LargeB18 <= 18750
+VolumeB19: 100 SmallB19 + 200 SmallMidB19 + 300 MediumB19 + 400 MidLargeB19 + 500 LargeB19 <= 18750
+VolumeB20: 100 SmallB20 + 200 SmallMidB20 + 300 MediumB20 + 400 MidLargeB20 + 500 LargeB20 <= 18750
+VolumeB21: 100 SmallB21 + 200 SmallMidB21 + 300 MediumB21 + 400 MidLargeB21 + 500 LargeB21 <= 18750
+VolumeB22: 100 SmallB22 + 200 SmallMidB22 + 300 MediumB22 + 400 MidLargeB22 + 500 LargeB22 <= 18750
+VolumeB23: 100 SmallB23 + 200 SmallMidB23 + 300 MediumB23 + 400 MidLargeB23 + 500 LargeB23 <= 18750
+VolumeB24: 100 SmallB24 + 200 SmallMidB24 + 300 MediumB24 + 400 MidLargeB24 + 500 LargeB24 <= 18750
+VolumeB25: 100 SmallB25 + 200 SmallMidB25 + 300 MediumB25 + 400 MidLargeB25 + 500 LargeB25 <= 18750
+VolumeB26: 100 SmallB26 + 200 SmallMidB26 + 300 MediumB26 + 400 MidLargeB26 + 500 LargeB26 <= 18750
+VolumeB27: 100 SmallB27 + 200 SmallMidB27 + 300 MediumB27 + 400 MidLargeB27 + 500 LargeB27 <= 18750
+VolumeB28: 100 SmallB28 + 200 SmallMidB28 + 300 MediumB28 + 400 MidLargeB28 + 500 LargeB28 <= 18750
+VolumeB29: 100 SmallB29 + 200 SmallMidB29 + 300 MediumB29 + 400 MidLargeB29 + 500 LargeB29 <= 18750
+VolumeB30: 100 SmallB30 + 200 SmallMidB30 + 300 MediumB30 + 400 MidLargeB30 + 500 LargeB30 <= 18750
+VolumeB31: 100 SmallB31 + 200 SmallMidB31 + 300 MediumB31 + 400 MidLargeB31 + 500 LargeB31 <= 18750
+VolumeB32: 100 SmallB32 + 200 SmallMidB32 + 300 MediumB32 + 400 MidLargeB32 + 500 LargeB32 <= 18750
+VolumeB33: 100 SmallB33 + 200 SmallMidB33 + 300 MediumB33 + 400 MidLargeB33 + 500 LargeB33 <= 18750
+VolumeB34: 100 SmallB34 + 200 SmallMidB34 + 300 MediumB34 + 400 MidLargeB34 + 500 LargeB34 <= 18750
+VolumeB35: 100 SmallB35 + 200 SmallMidB35 + 300 MediumB35 + 400 MidLargeB35 + 500 LargeB35 <= 18750
+VolumeB36: 100 SmallB36 + 200 SmallMidB36 + 300 MediumB36 + 400 MidLargeB36 + 500 LargeB36 <= 18750
+VolumeB37: 100 SmallB37 + 200 SmallMidB37 + 300 MediumB37 + 400 MidLargeB37 + 500 LargeB37 <= 18750
+VolumeB38: 100 SmallB38 + 200 SmallMidB38 + 300 MediumB38 + 400 MidLargeB38 + 500 LargeB38 <= 18750
+VolumeB39: 100 SmallB39 + 200 SmallMidB39 + 300 MediumB39 + 400 MidLargeB39 + 500 LargeB39 <= 18750
+VolumeB40: 100 SmallB40 + 200 SmallMidB40 + 300 MediumB40 + 400 MidLargeB40 + 500 LargeB40 <= 18750
+
+SmallBooks: 1 SmallB1 + 1 SmallB2 + 1 SmallB3 + 1 SmallB4 + 1 SmallB5 + 1 SmallB6 + 1 SmallB7 + 1 SmallB8 + 1 SmallB9 + 1 SmallB10 + 1 SmallB11 + 1 SmallB12 + 1 SmallB13 + 1 SmallB14 + 1 SmallB15 + 1 SmallB16 + 1 SmallB17 + 1 SmallB18 + 1 SmallB19 + 1 SmallB20 + 1 SmallB21 + 1 SmallB22 + 1 SmallB23 + 1 SmallB24 + 1 SmallB25 + 1 SmallB26 + 1 SmallB27 + 1 SmallB28 + 1 SmallB29 + 1 SmallB30 + 1 SmallB31 + 1 SmallB32 + 1 SmallB33 + 1 SmallB34 + 1 SmallB35 + 1 SmallB36 + 1 SmallB37 + 1 SmallB38 + 1 SmallB39 + 1 SmallB40 = 100
+
+SmallMidBooks: 1 SmallMidB1 + 1 SmallMidB2 + 1 SmallMidB3 + 1 SmallMidB4 + 1 SmallMidB5+ 1 SmallMidB6 + 1 SmallMidB7 + 1 SmallMidB8 + 1 SmallMidB9 + 1 SmallMidB10 + 1 SmallMidB11 + 1 SmallMidB12 + 1 SmallMidB13 + 1 SmallMidB14 + 1 SmallMidB15+ 1 SmallMidB16 + 1 SmallMidB17 + 1 SmallMidB18 + 1 SmallMidB19 + 1 SmallMidB20 + 1 SmallMidB21 + 1 SmallMidB22 + 1 SmallMidB23 + 1 SmallMidB24 + 1 SmallMidB25+ 1 SmallMidB26 + 1 SmallMidB27 + 1 SmallMidB28 + 1 SmallMidB29 + 1 SmallMidB30 + 1 SmallMidB31 + 1 SmallMidB32 + 1 SmallMidB33 + 1 SmallMidB34 + 1 SmallMidB35+ 1 SmallMidB36 + 1 SmallMidB37 + 1 SmallMidB38 + 1 SmallMidB39 + 1 SmallMidB40 = 100
+
+MediumBooks: 1 MediumB1 + 1 MediumB2 + 1 MediumB3 + 1 MediumB4 + 1 MediumB5 + 1 MediumB6 + 1 MediumB7 + 1 MediumB8 + 1 MediumB9 + 1 MediumB10 + 1 MediumB11 + 1 MediumB12 + 1 MediumB13 + 1 MediumB14 + 1 MediumB15 + 1 MediumB16 + 1 MediumB17 + 1 MediumB18 + 1 MediumB19 + 1 MediumB20 +1 MediumB21 + 1 MediumB22 + 1 MediumB23 + 1 MediumB24 + 1 MediumB25 + 1 MediumB26 + 1 MediumB27 + 1 MediumB28 + 1 MediumB29 + 1 MediumB30 + 1 MediumB31 + 1 MediumB32 + 1 MediumB33 + 1 MediumB34 + 1 MediumB35 + 1 MediumB36 + 1 MediumB37 + 1 MediumB38 + 1 MediumB39 + 1 MediumB40 = 100
+
+MidLargeBooks: 1 MidLargeB1 + 1 MidLargeB2 + 1 MidLargeB3 + 1 MidLargeB4 + 1 MidLargeB5 + 1 MidLargeB6 + 1 MidLargeB7 + 1 MidLargeB8 + 1 MidLargeB9 + 1 MidLargeB10 + 1 MidLargeB11 + 1 MidLargeB12 + 1 MidLargeB13 + 1 MidLargeB14 + 1 MidLargeB15 + 1 MidLargeB16 + 1 MidLargeB17 + 1 MidLargeB18 + 1 MidLargeB19 + 1 MidLargeB20 + 1 MidLargeB21 + 1 MidLargeB22 + 1 MidLargeB23 + 1 MidLargeB24 + 1 MidLargeB25 + 1 MidLargeB26 + 1 MidLargeB27 + 1 MidLargeB28 + 1 MidLargeB29 + 1 MidLargeB30 + 1 MidLargeB31 + 1 MidLargeB32 + 1 MidLargeB33 + 1 MidLargeB34 + 1 MidLargeB35 + 1 MidLargeB36 + 1 MidLargeB37 + 1 MidLargeB38 + 1 MidLargeB39 + 1 MidLargeB40 = 100
+
+LargeBooks: LargeB1 + LargeB2 + LargeB3 + LargeB4 + LargeB5 + LargeB6 + LargeB7 + LargeB8 + LargeB9 + LargeB10 + LargeB11 + LargeB12 + LargeB13 + LargeB14 + LargeB15 + LargeB16 + LargeB17 + LargeB18 + LargeB19 + LargeB20 + LargeB21 + LargeB22 + LargeB23 + LargeB24 + LargeB25 + LargeB26 + LargeB27 + LargeB28 + LargeB29 + LargeB30 + LargeB31 + LargeB32 + LargeB33 + LargeB34 + LargeB35 + LargeB36 + LargeB37 + LargeB38 + LargeB39 + LargeB40 = 100
+
+Box1Used:  1 SmallB1 + 1 SmallMidB1 + 1 MediumB1 + 1 MidLargeB1 + 1 LargeB1 - 10000 UsedBox1 <=0
+Box2Used:  1 SmallB2 + 1 SmallMidB2 + 1 MediumB2 + 1 MidLargeB2 + 1 LargeB2 - 10000 UsedBox2 <=0
+Box3Used:  1 SmallB3 + 1 SmallMidB3 + 1 MediumB3 + 1 MidLargeB3 + 1 LargeB3 - 10000 UsedBox3 <=0
+Box4Used:  1 SmallB4 + 1 SmallMidB4 + 1 MediumB4 + 1 MidLargeB4 + 1 LargeB4 - 10000 UsedBox4 <=0
+Box5Used:  1 SmallB5 + 1 SmallMidB5 + 1 MediumB5 + 1 MidLargeB5 + 1 LargeB5 - 10000 UsedBox5 <=0
+Box6Used:  1 SmallB6 + 1 SmallMidB6 + 1 MediumB6 + 1 MidLargeB6 + 1 LargeB6 - 10000 UsedBox6 <=0
+Box7Used:  1 SmallB7 + 1 SmallMidB7 + 1 MediumB7 + 1 MidLargeB7 + 1 LargeB7 - 10000 UsedBox7 <=0
+Box8Used:  1 SmallB8 + 1 SmallMidB8 + 1 MediumB8 + 1 MidLargeB8 + 1 LargeB8 - 10000 UsedBox8 <=0
+Box9Used:  1 SmallB9 + 1 SmallMidB9 + 1 MediumB9 + 1 MidLargeB9 + 1 LargeB9 - 10000 UsedBox9 <=0
+Box10Used:  1 SmallB10 + 1 SmallMidB10 + 1 MediumB10 + 1 MidLargeB10 + 1 LargeB10 - 10000 UsedBox10 <=0
+Box11Used:  1 SmallB11 + 1 SmallMidB11 + 1 MediumB11 + 1 MidLargeB11 + 1 LargeB11 - 10000 UsedBox11 <=0
+Box12Used:  1 SmallB12 + 1 SmallMidB12 + 1 MediumB12 + 1 MidLargeB12 + 1 LargeB12 - 10000 UsedBox12 <=0
+Box13Used:  1 SmallB13 + 1 SmallMidB13 + 1 MediumB13 + 1 MidLargeB13 + 1 LargeB13 - 10000 UsedBox13 <=0
+Box14Used:  1 SmallB14 + 1 SmallMidB14 + 1 MediumB14 + 1 MidLargeB14 + 1 LargeB14 - 10000 UsedBox14 <=0
+Box15Used:  1 SmallB15 + 1 SmallMidB15 + 1 MediumB15 + 1 MidLargeB15 + 1 LargeB15 - 10000 UsedBox15 <=0
+Box16Used:  1 SmallB16 + 1 SmallMidB16 + 1 MediumB16 + 1 MidLargeB16 + 1 LargeB16 - 10000 UsedBox16 <=0
+Box17Used:  1 SmallB17 + 1 SmallMidB17 + 1 MediumB17 + 1 MidLargeB17 + 1 LargeB17 - 10000 UsedBox17 <=0
+Box18Used:  1 SmallB18 + 1 SmallMidB18 + 1 MediumB18 + 1 MidLargeB18 + 1 LargeB18 - 10000 UsedBox18 <=0
+Box19Used:  1 SmallB19 + 1 SmallMidB19 + 1 MediumB19 + 1 MidLargeB19 + 1 LargeB19 - 10000 UsedBox19 <=0
+Box20Used:  1 SmallB20 + 1 SmallMidB20 + 1 MediumB20 + 1 MidLargeB20 + 1 LargeB20 - 10000 UsedBox20 <=0
+Box21Used:  1 SmallB21 + 1 SmallMidB21 + 1 MediumB21 + 1 MidLargeB21 + 1 LargeB21 - 10000 UsedBox21 <=0
+Box22Used:  1 SmallB22 + 1 SmallMidB22 + 1 MediumB22 + 1 MidLargeB22 + 1 LargeB22 - 10000 UsedBox22 <=0
+Box23Used:  1 SmallB23 + 1 SmallMidB23 + 1 MediumB23 + 1 MidLargeB23 + 1 LargeB23 - 10000 UsedBox23 <=0
+Box24Used:  1 SmallB24 + 1 SmallMidB24 + 1 MediumB24 + 1 MidLargeB24 + 1 LargeB24 - 10000 UsedBox24 <=0
+Box25Used:  1 SmallB25 + 1 SmallMidB25 + 1 MediumB25 + 1 MidLargeB25 + 1 LargeB25 - 10000 UsedBox25 <=0
+Box26Used:  1 SmallB26 + 1 SmallMidB26 + 1 MediumB26 + 1 MidLargeB26 + 1 LargeB26 - 10000 UsedBox26 <=0
+Box27Used:  1 SmallB27 + 1 SmallMidB27 + 1 MediumB27 + 1 MidLargeB27 + 1 LargeB27 - 10000 UsedBox27 <=0
+Box28Used:  1 SmallB28 + 1 SmallMidB28 + 1 MediumB28 + 1 MidLargeB28 + 1 LargeB28 - 10000 UsedBox28 <=0
+Box29Used:  1 SmallB29 + 1 SmallMidB29 + 1 MediumB29 + 1 MidLargeB29 + 1 LargeB29 - 10000 UsedBox29 <=0
+Box30Used:  1 SmallB30 + 1 SmallMidB30 + 1 MediumB30 + 1 MidLargeB30 + 1 LargeB30 - 10000 UsedBox30 <=0
+Box31Used:  1 SmallB31 + 1 SmallMidB31 + 1 MediumB31 + 1 MidLargeB31 + 1 LargeB31 - 10000 UsedBox31 <=0
+Box32Used:  1 SmallB32 + 1 SmallMidB32 + 1 MediumB32 + 1 MidLargeB32 + 1 LargeB32 - 10000 UsedBox32 <=0
+Box33Used:  1 SmallB33 + 1 SmallMidB33 + 1 MediumB33 + 1 MidLargeB33 + 1 LargeB33 - 10000 UsedBox33 <=0
+Box34Used:  1 SmallB34 + 1 SmallMidB34 + 1 MediumB34 + 1 MidLargeB34 + 1 LargeB34 - 10000 UsedBox34 <=0
+Box35Used:  1 SmallB35 + 1 SmallMidB35 + 1 MediumB35 + 1 MidLargeB35 + 1 LargeB35 - 10000 UsedBox35 <=0
+Box36Used:  1 SmallB36 + 1 SmallMidB36 + 1 MediumB36 + 1 MidLargeB36 + 1 LargeB36 - 10000 UsedBox36 <=0
+Box37Used:  1 SmallB37 + 1 SmallMidB37 + 1 MediumB37 + 1 MidLargeB37 + 1 LargeB37 - 10000 UsedBox37 <=0
+Box38Used:  1 SmallB38 + 1 SmallMidB38 + 1 MediumB38 + 1 MidLargeB38 + 1 LargeB38 - 10000 UsedBox38 <=0
+Box39Used:  1 SmallB39 + 1 SmallMidB39 + 1 MediumB39 + 1 MidLargeB39 + 1 LargeB39 - 10000 UsedBox39 <=0
+Box40Used:  1 SmallB40 + 1 SmallMidB40 + 1 MediumB40 + 1 MidLargeB40 + 1 LargeB40 - 10000 UsedBox40 <=0
+
+bounds
+SmallB1 >=0
+SmallMidB1 >=0
+MediumB1 >=0
+MidLargeB1 >=0
+LargeB1 >=0
+
+SmallB2 >=0
+SmallMidB2 >=0
+MediumB2 >=0
+MidLargeB2 >=0
+LargeB2 >=0
+
+SmallB3 >=0
+SmallMidB3 >=0
+MediumB3 >=0
+MidLargeB3 >=0
+LargeB3 >=0
+
+SmallB4 >=0
+SmallMidB4 >=0
+MediumB4 >=0
+MidLargeB4 >=0
+LargeB4 >=0
+
+SmallB5 >=0
+SmallMidB5 >=0
+MediumB5 >=0
+MidLargeB5 >=0
+LargeB5 >=0
+
+SmallB6 >=0
+SmallMidB6 >=0
+MediumB6 >=0
+MidLargeB6 >=0
+LargeB6 >=0
+
+SmallB7 >=0
+SmallMidB7 >=0
+MediumB7 >=0
+MidLargeB7 >=0
+LargeB7 >=0
+
+SmallB8 >=0
+SmallMidB8 >=0
+MediumB8 >=0
+MidLargeB8 >=0
+LargeB8 >=0
+
+SmallB9 >=0
+SmallMidB9 >=0
+MediumB9 >=0
+MidLargeB9 >=0
+LargeB9 >=0
+
+SmallB10 >=0
+SmallMidB10 >=0
+MediumB10 >=0
+MidLargeB10 >=0
+LargeB10 >=0
+
+SmallB11 >=0
+SmallMidB11 >=0
+MediumB11 >=0
+MidLargeB11 >=0
+LargeB11 >=0
+
+SmallB12 >=0
+SmallMidB12 >=0
+MediumB12 >=0
+MidLargeB12 >=0
+LargeB12 >=0
+
+SmallB13 >=0
+SmallMidB13 >=0
+MediumB13 >=0
+MidLargeB13 >=0
+LargeB13 >=0
+
+SmallB14 >=0
+SmallMidB14 >=0
+MediumB14 >=0
+MidLargeB14 >=0
+LargeB14 >=0
+
+SmallB15 >=0
+SmallMidB15 >=0
+MediumB15 >=0
+MidLargeB15 >=0
+LargeB15 >=0
+
+SmallB16 >=0
+SmallMidB16 >=0
+MediumB16 >=0
+MidLargeB16 >=0
+LargeB16 >=0
+
+SmallB17 >=0
+SmallMidB17 >=0
+MediumB17 >=0
+MidLargeB17 >=0
+LargeB17 >=0
+
+SmallB18 >=0
+SmallMidB18 >=0
+MediumB18 >=0
+MidLargeB18 >=0
+LargeB18 >=0
+
+SmallB19 >=0
+SmallMidB19 >=0
+MediumB19 >=0
+MidLargeB19 >=0
+LargeB19 >=0
+
+SmallB20 >=0
+SmallMidB20 >=0
+MediumB20 >=0
+MidLargeB20 >=0
+LargeB20 >=0
+
+SmallB21 >=0
+SmallMidB21 >=0
+MediumB21 >=0
+MidLargeB21 >=0
+LargeB21 >=0
+
+SmallB22 >=0
+SmallMidB22 >=0
+MediumB22 >=0
+MidLargeB22 >=0
+LargeB22 >=0
+
+SmallB23 >=0
+SmallMidB23 >=0
+MediumB23 >=0
+MidLargeB23 >=0
+LargeB23 >=0
+
+SmallB24 >=0
+SmallMidB24 >=0
+MediumB24 >=0
+MidLargeB24 >=0
+LargeB24 >=0
+
+SmallB25 >=0
+SmallMidB25 >=0
+MediumB25 >=0
+MidLargeB25 >=0
+LargeB25 >=0
+
+SmallB26 >=0
+SmallMidB26 >=0
+MediumB26 >=0
+MidLargeB26 >=0
+LargeB26 >=0
+
+SmallB27 >=0
+SmallMidB27 >=0
+MediumB27 >=0
+MidLargeB27 >=0
+LargeB27 >=0
+
+SmallB28 >=0
+SmallMidB28 >=0
+MediumB28 >=0
+MidLargeB28 >=0
+LargeB28 >=0
+
+SmallB29 >=0
+SmallMidB29 >=0
+MediumB29 >=0
+MidLargeB29 >=0
+LargeB29 >=0
+
+SmallB30 >=0
+SmallMidB30 >=0
+MediumB30 >=0
+MidLargeB30 >=0
+LargeB30 >=0
+
+SmallB31 >=0
+SmallMidB31 >=0
+MediumB31 >=0
+MidLargeB31 >=0
+LargeB31 >=0
+
+SmallB32 >=0
+SmallMidB32 >=0
+MediumB32 >=0
+MidLargeB32 >=0
+LargeB32 >=0
+
+SmallB33 >=0
+SmallMidB33 >=0
+MediumB33 >=0
+MidLargeB33 >=0
+LargeB33 >=0
+
+SmallB34 >=0
+SmallMidB34 >=0
+MediumB34 >=0
+MidLargeB34 >=0
+LargeB34 >=0
+
+SmallB35 >=0
+SmallMidB35 >=0
+MediumB35 >=0
+MidLargeB35 >=0
+LargeB35 >=0
+
+SmallB36 >=0
+SmallMidB36 >=0
+MediumB36 >=0
+MidLargeB36 >=0
+LargeB36 >=0
+
+SmallB37 >=0
+SmallMidB37 >=0
+MediumB37 >=0
+MidLargeB37 >=0
+LargeB37 >=0
+
+SmallB38 >=0
+SmallMidB38 >=0
+MediumB38 >=0
+MidLargeB38 >=0
+LargeB38 >=0
+
+SmallB39 >=0
+SmallMidB39 >=0
+MediumB39 >=0
+MidLargeB39 >=0
+LargeB39 >=0
+
+SmallB40 >=0
+SmallMidB40 >=0
+MediumB40 >=0
+MidLargeB40 >=0
+LargeB40 >=0
+
+Binary
+UsedBox1
+UsedBox2
+UsedBox3
+UsedBox4
+UsedBox5
+UsedBox6
+UsedBox7
+UsedBox8
+UsedBox9
+UsedBox10
+UsedBox11
+UsedBox12
+UsedBox13
+UsedBox14
+UsedBox15
+UsedBox16
+UsedBox17
+UsedBox18
+UsedBox19
+UsedBox20
+UsedBox21
+UsedBox22
+UsedBox23
+UsedBox24
+UsedBox25
+UsedBox26
+UsedBox27
+UsedBox28
+UsedBox29
+UsedBox30
+UsedBox31
+UsedBox32
+UsedBox33
+UsedBox34
+UsedBox35
+UsedBox36
+UsedBox37
+UsedBox38
+UsedBox39
+UsedBox40
+
+end
