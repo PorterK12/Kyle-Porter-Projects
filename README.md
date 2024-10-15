@@ -5,4 +5,4 @@ Dream Footwear Business Capstone
 A project focusing on business strategy and development for a footwear company through the Business Strategy game.
 
 OR-SU Special Collections Project
-A storage optimization project focused on the special collections at Southwestern University Libaray.
+A storage optimization project focused on the special collections at Southwestern University Library.
