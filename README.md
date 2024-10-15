@@ -1,4 +1,4 @@
-Welcome to the Kyle Porter Projects repository! This collection showcases various projects I've worked on, including academic capstones and other creative endeavors.
+Welcome to my Project repository! This collection showcases various projects I've worked on, including academic capstones and other creative endeavors.
 
 Projects
 Dream Footwear Business Capstone
