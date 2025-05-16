@@ -6,3 +6,6 @@ A project focusing on business strategy and development for a footwear company t
 
 OR-SU Special Collections Project
 A storage optimization project focused on the special collections at the Southwestern University Library.
+
+Predictive Maintenance of Water Pumps Using Machine Learning
+A machine learning project focused on leveraging different models to attempt classify water pumps.
